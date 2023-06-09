@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="10" time="189.808417">
+    <testcase classname="Booking flight" name="check the one way button is selected or not" time="10.720309">
+        <system-out><![CDATA[Given user is on the flight booking page....................................passed
+Then user to check the one way button is selected or not....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Booking flight" name="Booking of flight under one way" time="24.499766">
+        <system-out><![CDATA[Given user is on the flight booking page....................................passed
+When user click on one way button...........................................passed
+When user select the from city..............................................passed
+When user select the to city................................................passed
+When user select the date of traveling......................................passed
+When user enter the details of passengers...................................passed
+And click on search.........................................................passed
+Then user is able to see the available flights..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Booking flight" name="filter the flights using Popular Filters" time="23.407056">
+        <system-out><![CDATA[Given user is on the flight booking page....................................passed
+When user click on one way button...........................................passed
+When user select the from city..............................................passed
+When user select the to city................................................passed
+When user select the date of traveling......................................passed
+When user enter the details of passengers...................................passed
+And click on search.........................................................passed
+Then user is able to select the popular filters.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Booking flight" name="get selected filters text" time="25.568332">
+        <system-out><![CDATA[Given user is on the flight booking page....................................passed
+When user click on one way button...........................................passed
+When user select the from city..............................................passed
+When user select the to city................................................passed
+When user select the date of traveling......................................passed
+When user enter the details of passengers...................................passed
+And click on search.........................................................passed
+Then user is able to selected filters text..................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Booking flight" name="select the fare type student" time="30.179757">
+        <system-out><![CDATA[Given user is on the flight booking page....................................passed
+When user click on one way button...........................................passed
+When user select the from city..............................................passed
+When user select the to city................................................passed
+When user select the date of traveling......................................passed
+When user enter the details of passengers...................................passed
+And click on search.........................................................passed
+When user to select the fare type...........................................passed
+Then user is able to see the text...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Booking flight" name="see the flight details" time="27.832953">
+        <system-out><![CDATA[Given user is on the flight booking page....................................passed
+When user click on one way button...........................................passed
+When user select the from city..............................................passed
+When user select the to city................................................passed
+When user select the date of traveling......................................passed
+When user enter the details of passengers...................................passed
+And click on search.........................................................passed
+Then user is to select view flight details..................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Booking flight" name="get url's" time="8.596478">
+        <system-out><![CDATA[Given user is on the flight booking page....................................passed
+When user click on different modules........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Booking flight" name="select the same from city and to city" time="13.677938">
+        <system-out><![CDATA[Given user is on the flight booking page....................................passed
+When user click on one way button...........................................passed
+When user select the from city..............................................passed
+When user select the same city as from city.................................passed
+Then user is able to see error text.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Booking flight" name="select more infants for one adult" time="14.717204">
+        <system-out><![CDATA[Given user is on the flight booking page....................................passed
+When user click on one way button...........................................passed
+When user select the from city..............................................passed
+When user select the to city................................................passed
+When user select the date of traveling......................................passed
+When user select more Infants than adults...................................passed
+Then user is able to see the Infant error text..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Booking flight" name="go to My Profile" time="10.608624">
+        <system-out><![CDATA[Given user is on the flight booking page....................................passed
+When user to click on profile...............................................passed
+And click on MyProfile......................................................passed
+Then user be in myprofile page..............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
